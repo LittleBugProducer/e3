@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ei3.iml" filepath="$PROJECT_DIR$/ei3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3common/ei3-common.iml" filepath="$PROJECT_DIR$/ei3common/ei3-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e3manager/ei3-manager.iml" filepath="$PROJECT_DIR$/e3manager/ei3-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3managerdao/ei3-manager-dao.iml" filepath="$PROJECT_DIR$/ei3managerdao/ei3-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3managerinterface/ei3-manager-interface.iml" filepath="$PROJECT_DIR$/ei3managerinterface/ei3-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3managerpojo/ei3-manager-pojo.iml" filepath="$PROJECT_DIR$/ei3managerpojo/ei3-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3managerservice/ei3-manager-service.iml" filepath="$PROJECT_DIR$/ei3managerservice/ei3-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" filepath="$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3parent/ei3-parent.iml" filepath="$PROJECT_DIR$/ei3parent/ei3-parent.iml" />
+    </modules>
+  </component>
+</project>
