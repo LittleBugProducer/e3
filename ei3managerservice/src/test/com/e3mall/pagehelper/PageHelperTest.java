@@ -28,8 +28,6 @@ public class PageHelperTest {
 		System.out.println(pageInfo.getPages());
 		System.out.println(pageInfo.getPageNum());
 		System.out.println(pageInfo.getPageSize());
-		firstPage = pageInfo.getFirstPage();
-		System.out.println(firstPage);
 
 
 	}

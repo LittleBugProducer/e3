@@ -13,7 +13,7 @@ import java.util.List;
 @Controller
 public class ItemCatController {
 
-	@Autowired
+	@Autowired(required = false)
 	private ItemCatService itemCatService;
 
 	@RequestMapping("/item/cat/list")

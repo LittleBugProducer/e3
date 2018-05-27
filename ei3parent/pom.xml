@@ -118,6 +118,7 @@
                 <artifactId>pagehelper</artifactId>
                 <version>${pagehelper.version}</version>
             </dependency>
+
             <!-- MySql -->
             <dependency>
                 <groupId>mysql</groupId>

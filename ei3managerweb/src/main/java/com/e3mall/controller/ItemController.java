@@ -4,6 +4,7 @@ import com.e3mall.common.pojo.EasyUIDataGridResult;
 import com.e3mall.pojo.TbItem;
 import com.e3mall.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Required;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ItemController {
 
-	@Autowired
+	@Autowired(required = false)
 	private ItemService itemService;
 
 	@RequestMapping("/item/{itemId}")
