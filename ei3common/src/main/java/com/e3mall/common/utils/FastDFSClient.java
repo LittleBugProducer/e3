@@ -13,6 +13,7 @@ public class FastDFSClient {
 	public FastDFSClient(String conf)throws Exception{
 		if(conf.contains("classpath:")){
 			conf = conf.replace("classpath:",this.getClass().getResource("/").getPath());
+			//System.out.println("conf information"+conf);
 		}
 		ClientGlobal.init(conf);
 		trackerClient = new TrackerClient();

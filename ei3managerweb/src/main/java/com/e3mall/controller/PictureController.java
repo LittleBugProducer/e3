@@ -1,7 +1,7 @@
 package com.e3mall.controller;
 
-import com.alibaba.druid.support.json.JSONUtils;
 import com.e3mall.common.utils.FastDFSClient;
+import com.e3mall.common.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -17,7 +17,7 @@ public class PictureController {
 	@Value("${IMAGE_SERVER_URL}")
 	private String IMAGE_SERVER_URL;
 
-	@RequestMapping(value = "/pic/upload",produces = MediaType.TEXT_PLAIN_VALUE+";charset=utf-8")
+	@RequestMapping(value = "/pic/upload", produces=MediaType.TEXT_PLAIN_VALUE+";charset=utf-8")
 	@ResponseBody
 	public String fileUpload(MultipartFile uploadFile){
 		try{
@@ -29,14 +29,15 @@ public class PictureController {
 			Map result = new HashMap<>();
 			result.put("error",0);
 			result.put("url",url);
-			String json = JSONUtils.toJSONString(result);
+			String json = JsonUtils.objectToJson(result);
+			//System.out.println(json);
 			return json;
 		}catch (Exception e){
 			e.printStackTrace();
 			Map result = new HashMap<>();
 			result.put("error",1);
 			result.put("message","图片上传失败");
-			String json = JSONUtils.toJSONString(result);
+			String json = JsonUtils.objectToJson(result);
 			return json;
 		}
 	}

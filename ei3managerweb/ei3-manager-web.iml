@@ -28,6 +28,7 @@
     <orderEntry type="module" module-name="ei3-manager-interface" />
     <orderEntry type="module" module-name="ei3-manager-pojo" />
     <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:3.4.2-fix" level="project" />
+    <orderEntry type="library" name="Maven: fastdfs_client:fastdfs_client:1.25" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ibatis:ibatis-core:3.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />
