@@ -4,9 +4,10 @@ import com.e3mall.pojo.TbContent;
 import com.e3mall.pojo.TbContentExample;
 import org.apache.ibatis.annotations.Param;
 
+import java.io.Serializable;
 import java.util.List;
 
-public interface TbContentMapper {
+public interface TbContentMapper{
     int countByExample(TbContentExample example);
 
     int deleteByExample(TbContentExample example);

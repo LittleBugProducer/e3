@@ -10,43 +10,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46b0a96d-e341-4b94-9f35-bdfa1b0a6a84" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__fastdfs_client_fastdfs_client_1_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/E3Result.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/IDUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/JsonUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/resources/conf/client.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/resources/conf/resource.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ei3contentservice_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ei3contentservice_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ei3portalweb_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ei3portalweb_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3content/ei3content.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3content/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentinterface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentCategoryService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentCategoryServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/resources/conf/db.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/resources/mybatis/SqlMapConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-service.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-trans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3contentservice/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentCategoryController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/java/com/e3mall/portal/controller/IndexController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/resources/conf/resource.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/resources/spring/springmvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/css/base_w1200.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/css/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/bottom_sm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/cate_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot/cd.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot/qc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot/qq.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot/sf.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/foot_bottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/g_loading.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/160x160-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/26336113289bf7273823080488a9d200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/751d2091c008c2a49c1934545730f041.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/goods/c11e0d59289782b09ea1cbcb98070017.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/header.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1463455028.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1463456854.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1468837571.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1471311388.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1471311447.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1472521203.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1472521236.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1472521250.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/20160829181637762.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/html/logo_word.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/indexImg20130307.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/index_icon_new.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/indexsprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/kxicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/left_lm_m.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/left_lm_m_a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/images/logo66.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/js/e3mall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/js/global_index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/js/jquery-1.4.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ei3portalweb/src/main/webapp/js/jquery.cookie.js" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ei3_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ei3_manager_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/FastDFSClient.java" afterPath="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/FastDFSClient.java" />
-      <change beforePath="$PROJECT_DIR$/ei3common/target/classes/com/e3mall/common/utils/FastDFSClient.class" afterPath="$PROJECT_DIR$/ei3common/target/classes/com/e3mall/common/utils/FastDFSClient.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java" afterPath="$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java" />
-      <change beforePath="$PROJECT_DIR$/ei3managerinterface/target/classes/com/e3mall/service/ItemService.class" afterPath="$PROJECT_DIR$/ei3managerinterface/target/classes/com/e3mall/service/ItemService.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemServiceImpl.java" afterPath="$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentMapper.java" afterPath="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentMapper.java" />
+      <change beforePath="$PROJECT_DIR$/ei3managerdao/target/classes/com/e3mall/mapper/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/ei3managerdao/target/classes/com/e3mall/mapper/TbContentCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbContent.java" afterPath="$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbContent.java" />
+      <change beforePath="$PROJECT_DIR$/ei3managerpojo/target/classes/com/e3mall/pojo/TbContent.class" afterPath="$PROJECT_DIR$/ei3managerpojo/target/classes/com/e3mall/pojo/TbContent.class" />
       <change beforePath="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/classes/com/e3mall/service/impl/ItemServiceImpl.class" afterPath="$PROJECT_DIR$/ei3managerservice/target/classes/com/e3mall/service/impl/ItemServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-trans.xml" />
       <change beforePath="$PROJECT_DIR$/ei3managerservice/target/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/ei3managerservice/target/classes/spring/applicationContext-service.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/com/e3mall/service/impl/ItemServiceImpl.class" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/com/e3mall/service/impl/ItemServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/ei3managerservice/target/classes/spring/applicationContext-trans.xml" />
       <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/spring/applicationContext-service.xml" />
+      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/spring/applicationContext-trans.xml" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/classes/spring/applicationContext-trans.xml" />
       <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-dao-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-interface-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerservice/target/ei3-manager-service/WEB-INF/lib/ei3-manager-pojo-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" afterPath="$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/pom.xml" afterPath="$PROJECT_DIR$/ei3managerweb/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/ItemCatController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/ItemCatController.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/ItemController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/ItemController.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/PictureController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/classes/com/e3mall/controller/PictureController.class" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/ei3managerweb/target/classes/spring/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/ItemCatController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/ItemCatController.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/ItemController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/ItemController.class" />
-      <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/PictureController.class" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/com/e3mall/controller/PictureController.class" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/classes/spring/springmvc.xml" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-common-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-manager-interface-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ei3managerweb/target/ei3-manager-web/WEB-INF/lib/ei3-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/e3manager/target/" />
@@ -58,6 +156,10 @@
     <ignored path="$PROJECT_DIR$/ei3common/target/" />
     <ignored path="$PROJECT_DIR$/ei3managerdao/target/" />
     <ignored path="$PROJECT_DIR$/ei3managerweb/target/" />
+    <ignored path="$PROJECT_DIR$/ei3contentinterface/target/" />
+    <ignored path="$PROJECT_DIR$/ei3contentservice/target/" />
+    <ignored path="$PROJECT_DIR$/ei3content/target/" />
+    <ignored path="$PROJECT_DIR$/ei3portalweb/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +172,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FastDFSClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/FastDFSClient.java">
+      <file leaf-file-name="ContentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,114 +184,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="E3Result.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/E3Result.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/java/com/e3mall/portal/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="330">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#472#493#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="-132">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PictureController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#555#576#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCatController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="376">
+              <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PageController.java">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemServiceImpl.java">
+      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/IDUtils.java">
+      <file leaf-file-name="ContentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="308">
+              <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemCatService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemCatService.java">
+      <file leaf-file-name="TbContentMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java">
+      <file leaf-file-name="TbContent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -247,17 +331,39 @@
         <option value="$PROJECT_DIR$/ei3managerservice/src/test/com/e3mall/pagehelper/PageHelperTest.java" />
         <option value="$PROJECT_DIR$/ei3parent/pom.xml" />
         <option value="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/ei3managerweb/pom.xml" />
         <option value="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java" />
         <option value="$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/E3Result.java" />
         <option value="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/IDUtils.java" />
+        <option value="$PROJECT_DIR$/ei3content/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3contentinterface/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/ei3managerweb/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3contentservice/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ei3managerdao/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/resources/conf/db.properties" />
+        <option value="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/ei3portalweb/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ei3portalweb/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbContent.java" />
+        <option value="$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentMapper.java" />
+        <option value="$PROJECT_DIR$/ei3portalweb/src/main/java/com/e3mall/portal/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -275,7 +381,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="245" />
+    <option name="x" value="251" />
     <option name="y" value="-8" />
     <option name="width" value="1452" />
     <option name="height" value="873" />
@@ -298,10 +404,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,147 +414,25 @@
             <path>
               <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
               <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
+              <item name="ei3portalweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
               <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
+              <item name="ei3portalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
               <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerinterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerinterface" type="462c0819:PsiDirectoryNode" />
+              <item name="ei3portalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
               <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerinterface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerpojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerpojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerpojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerpojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
+              <item name="ei3portalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -460,166 +440,20 @@
             <path>
               <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
               <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
+              <item name="ei3portalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fastdfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fastdfs" type="462c0819:PsiDirectoryNode" />
-              <item name="FastDFSTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pagehelper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pagehelper" type="462c0819:PsiDirectoryNode" />
-              <item name="PageHelperTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3managerweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ei3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ei3" type="462c0819:PsiDirectoryNode" />
-              <item name="ei3parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -627,7 +461,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34705466" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fastdfs_client" />
@@ -638,11 +472,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaWorkFile\ei3\ei3portalweb\src\main\resources" />
+      <recent name="E:\ideaWorkFile\ei3\ei3portalweb\src\main" />
+      <recent name="E:\ideaWorkFile\ei3\ei3contentservice\src\main\resources" />
+      <recent name="E:\ideaWorkFile\ei3\ei3contentservice\src\main" />
       <recent name="E:\ideaWorkFile\ei3\ei3managerweb\src\main\resources" />
-      <recent name="E:\ideaWorkFile\ei3\ei3managerservice\src\main\resources\conf" />
-      <recent name="E:\ideaWorkFile\ei3\ei3managerweb\src\main\resources\conf" />
-      <recent name="E:\ideaWorkFile\ei3\ei3managerservice\src\main" />
-      <recent name="E:\ideaWorkFile\ei3\ei3managerweb\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -657,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Web">
+  <component name="RunManager" selected="Tomcat Server.manageWeb">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -907,7 +741,82 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="contentService" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:50001/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ei3contentservice:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ei3_5" />
+        <option name="HTTP_PORT" value="50001" />
+        <option name="JNDI_PORT" value="1097" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52673" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ei3contentservice:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="manageWeb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ei3-manager-web:war exploded">
@@ -979,19 +888,96 @@
         </option>
       </method>
     </configuration>
+    <configuration name="portalWeb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:50002/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ei3portalweb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ei3_6" />
+        <option name="HTTP_PORT" value="50002" />
+        <option name="JNDI_PORT" value="1096" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51565" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ei3portalweb:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="6">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Service" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Web" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PageHelperTest.testPageHelper" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFileUpload" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFastDfsClient" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.manageWeb" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.portalWeb" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.contentService" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PageHelperTest.testPageHelper" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FastDFSTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFileUpload" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testFastDfsClient" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -1024,6 +1010,7 @@
       <workItem from="1527425901306" duration="5604000" />
       <workItem from="1527491018379" duration="2875000" />
       <workItem from="1527506015055" duration="4992000" />
+      <workItem from="1527554108372" duration="18035000" />
     </task>
     <servers />
   </component>
@@ -1060,7 +1047,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50028000" />
+    <option name="totallyTimeSpent" value="68063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1075,7 +1062,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4069641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1083,12 +1070,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40152338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.49283153" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5071685" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1096,6 +1082,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1114,148 +1101,14 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/ContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/GenericFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/ClassLoaderFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/EchoFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolFilterWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/remoting/transport/dispatcher/ChannelEventRunnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/filter/ExceptionFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.4.RELEASE/spring-tx-4.2.4.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/test/com/e3mall/pagehelper/PageHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/pojo/EasyUITreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/pojo/EasyUIDataGridResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="60" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/conf/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/conf/client.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1263,234 +1116,245 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ei3parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="770">
           <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-trans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="138" column="62" lean-forward="false" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+        <state relative-caret-position="220">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/resources/conf/client.conf">
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/test/com/e3mall/fastdfs/FastDFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ei3managerweb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="440">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/ar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2772">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6930">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="92" column="33" lean-forward="false" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <marker date="1527379295425" expanded="true" signature="1416:1426" ph="..." />
-            <marker date="1527379295425" expanded="true" signature="1838:1878" ph="..." />
-            <marker date="1527379295425" expanded="true" signature="3177:3194" ph="..." />
-            <marker date="1527379295425" expanded="true" signature="3264:3281" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerinterface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/content.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-198">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133540">
-          <caret line="6070" column="15" lean-forward="false" selection-start-line="6070" selection-start-column="4" selection-end-line="6070" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/content-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/content-category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/content-edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/file-upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="114" column="46" lean-forward="false" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml">
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="-554">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/ei3contentinterface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" column="72" lean-forward="true" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
+        <state relative-caret-position="374">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/FastDFSClient.java">
+    <entry file="file://$PROJECT_DIR$/ei3managerdao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java">
+    <entry file="file://$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/E3Result.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="503">
+          <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerdao/target/classes/com/e3mall/mapper/TbContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
+            <marker date="1527574363083" expanded="true" signature="3814:3928" ph="select from tb_content_category" />
+            <marker date="1527574363083" expanded="true" signature="4012:4080" ph="delete from tb_content_category... " />
+            <marker date="1527574363083" expanded="true" signature="4187:4218" ph="delete from tb_content_category... " />
+            <marker date="1527574363083" expanded="true" signature="6453:6493" ph="select count... tb_content_category" />
+            <marker date="1527574363083" expanded="true" signature="7736:8170" ph="update tb_content_category... " />
+            <marker date="1527574363083" expanded="true" signature="8385:9130" ph="update tb_content_category... " />
+            <marker date="1527574363083" expanded="true" signature="9233:9614" ph="update tb_content_category... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentCategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="110">
+          <caret line="74" column="50" lean-forward="false" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <folding>
+            <marker date="1527569715259" expanded="true" signature="3814:3928" ph="select from tb_content_category" />
+            <marker date="1527569715259" expanded="true" signature="4012:4080" ph="delete from tb_content_category... " />
+            <marker date="1527569715259" expanded="true" signature="4187:4218" ph="delete from tb_content_category... " />
+            <marker date="1527569715259" expanded="true" signature="4469:4492" ph="SELECT LAST_... " />
+            <marker date="1527569715259" expanded="true" signature="4514:4881" ph="insert into tb_content_category... " />
+            <marker date="1527569715259" expanded="true" signature="4546:4881" ph="(id, parent_... " />
+            <marker date="1527569715259" expanded="true" signature="6453:6493" ph="select count... tb_content_category" />
+            <marker date="1527569715259" expanded="true" signature="7736:8170" ph="update tb_content_category... " />
+            <marker date="1527569715259" expanded="true" signature="8385:9130" ph="update tb_content_category... " />
+            <marker date="1527569715259" expanded="true" signature="9233:9614" ph="update tb_content_category... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerdao/target/classes/com/e3mall/mapper/TbContentCategoryMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3common/src/main/java/com/e3mall/common/utils/IDUtils.java">
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/java/com/e3mall/service/impl/ItemCatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="132">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/conf/client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#1183#1196#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1304">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/webapp/js/e3mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="52" column="47" lean-forward="false" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1503,14 +1367,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java">
+    <entry file="file://$PROJECT_DIR$/ei3managerinterface/src/main/java/com/e3mall/service/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#555#576#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentinterface/src/main/java/com/e3mall/content/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="87" lean-forward="false" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,18 +1407,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemController.java">
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/resources/conf/resource.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ItemCatController.java">
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="97" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerservice/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerweb/src/main/java/com/e3mall/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerdao/src/main/java/com/e3mall/mapper/TbContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3managerpojo/src/main/java/com/e3mall/pojo/TbContent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3contentservice/src/main/java/com/e3mall/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/java/com/e3mall/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#493#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ei3portalweb/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1557,7 +1563,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (ei3-manager-web)|Web</last-edited>
+          <last-edited>Web (ei3portalweb)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1592,7 +1598,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ei3-manager-web</last-edited>
+          <last-edited>ei3contentinterface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1616,7 +1622,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-tx:4.2.4.RELEASE</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

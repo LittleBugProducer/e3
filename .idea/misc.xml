@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ei3contentservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3managerservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3managerweb" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3portalweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ei3portalweb:war">
+    <output-path>$PROJECT_DIR$/ei3portalweb/target</output-path>
+    <root id="archive" name="ei3-portal-web.war">
+      <element id="artifact" artifact-name="ei3portalweb:war exploded" />
+    </root>
+  </artifact>
+</component>

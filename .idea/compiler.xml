@@ -11,6 +11,10 @@
         <module name="ei3-manager-pojo" />
         <module name="ei3-manager-service" />
         <module name="ei3-manager-web" />
+        <module name="ei3content" />
+        <module name="ei3contentinterface" />
+        <module name="ei3contentservice" />
+        <module name="ei3portalweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +27,10 @@
       <module name="ei3-manager-service" target="1.8" />
       <module name="ei3-manager-web" target="1.8" />
       <module name="ei3-parent" target="1.8" />
+      <module name="ei3content" target="1.8" />
+      <module name="ei3contentinterface" target="1.8" />
+      <module name="ei3contentservice" target="1.8" />
+      <module name="ei3portalweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

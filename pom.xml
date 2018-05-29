@@ -18,6 +18,10 @@
         <module>ei3managerservice</module>
         <module>ei3managerweb</module>
         <module>ei3managerweb</module>
+        <module>ei3content</module>
+        <module>ei3contentinterface</module>
+        <module>ei3contentservice</module>
+        <module>ei3portalweb</module>
     </modules>
     <build>
         <finalName>${project.artifactId}</finalName>
