@@ -5,12 +5,19 @@
     <file type="web" url="file://$PROJECT_DIR$/ei3managerservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3managerweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3portalweb" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3searchservice" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3searchweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/e3manager/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

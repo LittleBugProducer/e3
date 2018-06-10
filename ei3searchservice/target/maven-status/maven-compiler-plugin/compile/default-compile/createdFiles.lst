@@ -1,0 +1,6 @@
+com\e3mall\search\mapper\ItemMapper.class
+com\e3mall\search\service\listener\MyMessageListener.class
+com\e3mall\search\dao\SearchDao.class
+com\e3mall\search\service\listener\ItemAddMessageListener.class
+com\e3mall\search\service\impl\SearchItemServiceImpl.class
+com\e3mall\search\service\impl\SearchServiceImpl.class

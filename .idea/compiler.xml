@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ei3-common" />
         <module name="ei3-manager-dao" />
         <module name="ei3-manager-interface" />
         <module name="ei3-manager-pojo" />
@@ -15,22 +16,30 @@
         <module name="ei3contentinterface" />
         <module name="ei3contentservice" />
         <module name="ei3portalweb" />
+        <module name="ei3searchinterface" />
+        <module name="ei3searchservice" />
+        <module name="ei3searchweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ei3" target="1.8" />
-      <module name="ei3-common" target="1.8" />
-      <module name="ei3-manager" target="1.8" />
-      <module name="ei3-manager-dao" target="1.8" />
-      <module name="ei3-manager-interface" target="1.8" />
-      <module name="ei3-manager-pojo" target="1.8" />
-      <module name="ei3-manager-service" target="1.8" />
-      <module name="ei3-manager-web" target="1.8" />
-      <module name="ei3-parent" target="1.8" />
+      <module name="ei3-common" target="1.7" />
+      <module name="ei3-manager" target="1.7" />
+      <module name="ei3-manager-dao" target="1.7" />
+      <module name="ei3-manager-interface" target="1.7" />
+      <module name="ei3-manager-pojo" target="1.7" />
+      <module name="ei3-manager-service" target="1.7" />
+      <module name="ei3-manager-web" target="1.7" />
+      <module name="ei3-parent" target="1.7" />
       <module name="ei3content" target="1.8" />
-      <module name="ei3contentinterface" target="1.8" />
-      <module name="ei3contentservice" target="1.8" />
-      <module name="ei3portalweb" target="1.8" />
+      <module name="ei3contentinterface" target="1.7" />
+      <module name="ei3contentservice" target="1.7" />
+      <module name="ei3manager" target="1.7" />
+      <module name="ei3portalweb" target="1.7" />
+      <module name="ei3search" target="1.7" />
+      <module name="ei3searchinterface" target="1.7" />
+      <module name="ei3searchservice" target="1.7" />
+      <module name="ei3searchweb" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

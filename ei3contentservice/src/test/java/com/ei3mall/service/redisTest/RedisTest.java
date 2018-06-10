@@ -11,7 +11,7 @@ public class RedisTest {
 
 	@Test
 	public void testJedis()throws Exception{
-		Jedis jedis = new Jedis("192.168.25.131",6379);
+		Jedis jedis = new Jedis("192.168.25.136",6379);
 		jedis.append("hello","123");
 		String result = jedis.get("hello");
 		System.out.println(result);
@@ -19,7 +19,7 @@ public class RedisTest {
 
 	@Test
 	public void testJedisPoop()throws Exception{
-		JedisPool jedisPool = new JedisPool("192.168.25.131",6379);
+		JedisPool jedisPool = new JedisPool("192.168.25.136",6379);
 		Jedis jedis = jedisPool.getResource();
 		jedis.set("jedis","test");
 		String result = jedis.get("jedis");

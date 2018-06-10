@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ei3.iml" filepath="$PROJECT_DIR$/ei3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3common/ei3-common.iml" filepath="$PROJECT_DIR$/ei3common/ei3-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/e3manager/ei3-manager.iml" filepath="$PROJECT_DIR$/e3manager/ei3-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3managerdao/ei3-manager-dao.iml" filepath="$PROJECT_DIR$/ei3managerdao/ei3-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3managerinterface/ei3-manager-interface.iml" filepath="$PROJECT_DIR$/ei3managerinterface/ei3-manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3managerpojo/ei3-manager-pojo.iml" filepath="$PROJECT_DIR$/ei3managerpojo/ei3-manager-pojo.iml" />
@@ -14,7 +13,12 @@
       <module fileurl="file://$PROJECT_DIR$/ei3content/ei3content.iml" filepath="$PROJECT_DIR$/ei3content/ei3content.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" filepath="$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" filepath="$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3manager/ei3manager.iml" filepath="$PROJECT_DIR$/ei3manager/ei3manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" filepath="$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3search/ei3search.iml" filepath="$PROJECT_DIR$/ei3search/ei3search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" filepath="$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3searchservice/ei3searchservice.iml" filepath="$PROJECT_DIR$/ei3searchservice/ei3searchservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3searchweb/ei3searchweb.iml" filepath="$PROJECT_DIR$/ei3searchweb/ei3searchweb.iml" />
     </modules>
   </component>
 </project>

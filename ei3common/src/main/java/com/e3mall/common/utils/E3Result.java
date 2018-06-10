@@ -28,6 +28,10 @@ public class E3Result implements Serializable {
 		return new E3Result(null);
 	}
 
+	public static E3Result build(Integer status,String msg){
+		return new E3Result(status,msg,null);
+	}
+
 	public E3Result(){
 
 	}

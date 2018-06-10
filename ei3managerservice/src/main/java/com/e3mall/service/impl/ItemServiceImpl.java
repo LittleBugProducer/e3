@@ -12,8 +12,12 @@ import com.e3mall.service.ItemService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.*;
 import java.util.Date;
 import java.util.List;
 
@@ -25,6 +29,12 @@ public class ItemServiceImpl implements ItemService {
 
 	@Autowired
 	private TbItemDescMapper itemdescMapper;
+
+	@Autowired
+	private JmsTemplate jmsTemplate;
+
+	@Resource
+	private Destination topicDestination;
 
 	@Override
 	public TbItem getItemById(long itemId) {
@@ -49,13 +59,11 @@ public class ItemServiceImpl implements ItemService {
 		result.setTotal(pageInfo.getTotal());
 		result.setRows(list);
 		return result;
-		//PageHelper
-		//return null;
 	}
 
 	@Override
 	public E3Result addItem(TbItem item, String desc) {
-		long itemId = IDUtils.genItemId();
+		final long itemId = IDUtils.genItemId();
 		item.setId(itemId);
 		item.setStatus((byte)1);
 		Date date = new Date();
@@ -69,6 +77,14 @@ public class ItemServiceImpl implements ItemService {
 		itemDesc.setUpdated(date);
 		itemdescMapper.insert(itemDesc);
 
+		//发送一个商品添加消息
+		jmsTemplate.send(topicDestination, new MessageCreator() {
+			@Override
+			public Message createMessage(Session session) throws JMSException {
+				TextMessage textMessage = session.createTextMessage(itemId+"");
+				return textMessage;
+			}
+		});
 		return E3Result.ok();
 	}
 }
