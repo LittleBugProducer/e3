@@ -19,5 +19,9 @@
     <file url="file://$PROJECT_DIR$/ei3searchinterface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3searchservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3searchweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3ssointerface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3ssoservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3ssoweb" charset="UTF-8" />
   </component>
 </project>

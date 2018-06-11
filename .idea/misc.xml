@@ -8,11 +8,14 @@
     <file type="web" url="file://$PROJECT_DIR$/ei3portalweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3searchservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3searchweb" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3ssoservice" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3ssoweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3ssoweb/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

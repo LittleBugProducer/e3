@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ei3ssoweb:war">
+    <output-path>$PROJECT_DIR$/ei3ssoweb/target</output-path>
+    <root id="archive" name="ei3-sso-web.war">
+      <element id="artifact" artifact-name="ei3ssoweb:war exploded" />
+    </root>
+  </artifact>
+</component>

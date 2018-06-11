@@ -20,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" filepath="$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3searchservice/ei3searchservice.iml" filepath="$PROJECT_DIR$/ei3searchservice/ei3searchservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3searchweb/ei3searchweb.iml" filepath="$PROJECT_DIR$/ei3searchweb/ei3searchweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3sso/ei3sso.iml" filepath="$PROJECT_DIR$/ei3sso/ei3sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3ssointerface/ei3ssointerface.iml" filepath="$PROJECT_DIR$/ei3ssointerface/ei3ssointerface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3ssoservice/ei3ssoservice.iml" filepath="$PROJECT_DIR$/ei3ssoservice/ei3ssoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3ssoweb/ei3ssoweb.iml" filepath="$PROJECT_DIR$/ei3ssoweb/ei3ssoweb.iml" />
     </modules>
   </component>
 </project>

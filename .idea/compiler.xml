@@ -20,6 +20,9 @@
         <module name="ei3searchinterface" />
         <module name="ei3searchservice" />
         <module name="ei3searchweb" />
+        <module name="ei3ssointerface" />
+        <module name="ei3ssoservice" />
+        <module name="ei3ssoweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +45,10 @@
       <module name="ei3searchinterface" target="1.7" />
       <module name="ei3searchservice" target="1.7" />
       <module name="ei3searchweb" target="1.7" />
+      <module name="ei3sso" target="1.7" />
+      <module name="ei3ssointerface" target="1.7" />
+      <module name="ei3ssoservice" target="1.7" />
+      <module name="ei3ssoweb" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

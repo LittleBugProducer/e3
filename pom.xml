@@ -28,6 +28,10 @@
         <module>ei3searchweb</module>
         <module>ei3manager</module>
         <module>ei3itemweb</module>
+        <module>ei3sso</module>
+        <module>ei3ssointerface</module>
+        <module>ei3ssoservice</module>
+        <module>ei3ssoweb</module>
     </modules>
     <build>
         <finalName>${project.artifactId}</finalName>
