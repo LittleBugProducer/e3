@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/ei3content/ei3content.iml" filepath="$PROJECT_DIR$/ei3content/ei3content.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" filepath="$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" filepath="$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3itemweb/ei3itemweb.iml" filepath="$PROJECT_DIR$/ei3itemweb/ei3itemweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3manager/ei3manager.iml" filepath="$PROJECT_DIR$/ei3manager/ei3manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" filepath="$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3search/ei3search.iml" filepath="$PROJECT_DIR$/ei3search/ei3search.iml" />

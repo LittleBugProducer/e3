@@ -27,6 +27,7 @@
         <module>ei3searchservice</module>
         <module>ei3searchweb</module>
         <module>ei3manager</module>
+        <module>ei3itemweb</module>
     </modules>
     <build>
         <finalName>${project.artifactId}</finalName>

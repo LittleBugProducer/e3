@@ -15,6 +15,7 @@
         <module name="ei3content" />
         <module name="ei3contentinterface" />
         <module name="ei3contentservice" />
+        <module name="ei3itemweb" />
         <module name="ei3portalweb" />
         <module name="ei3searchinterface" />
         <module name="ei3searchservice" />
@@ -34,6 +35,7 @@
       <module name="ei3content" target="1.8" />
       <module name="ei3contentinterface" target="1.7" />
       <module name="ei3contentservice" target="1.7" />
+      <module name="ei3itemweb" target="1.7" />
       <module name="ei3manager" target="1.7" />
       <module name="ei3portalweb" target="1.7" />
       <module name="ei3search" target="1.7" />
