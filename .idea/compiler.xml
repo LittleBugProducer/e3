@@ -12,10 +12,16 @@
         <module name="ei3-manager-pojo" />
         <module name="ei3-manager-service" />
         <module name="ei3-manager-web" />
+        <module name="ei3cartinterface" />
+        <module name="ei3cartservice" />
+        <module name="ei3cartweb" />
         <module name="ei3content" />
         <module name="ei3contentinterface" />
         <module name="ei3contentservice" />
         <module name="ei3itemweb" />
+        <module name="ei3orderinterface" />
+        <module name="ei3orderservice" />
+        <module name="ei3orderweb" />
         <module name="ei3portalweb" />
         <module name="ei3searchinterface" />
         <module name="ei3searchservice" />
@@ -35,11 +41,19 @@
       <module name="ei3-manager-service" target="1.7" />
       <module name="ei3-manager-web" target="1.7" />
       <module name="ei3-parent" target="1.7" />
+      <module name="ei3cart" target="1.7" />
+      <module name="ei3cartinterface" target="1.7" />
+      <module name="ei3cartservice" target="1.7" />
+      <module name="ei3cartweb" target="1.7" />
       <module name="ei3content" target="1.8" />
       <module name="ei3contentinterface" target="1.7" />
       <module name="ei3contentservice" target="1.7" />
       <module name="ei3itemweb" target="1.7" />
       <module name="ei3manager" target="1.7" />
+      <module name="ei3order" target="1.7" />
+      <module name="ei3orderinterface" target="1.7" />
+      <module name="ei3orderservice" target="1.7" />
+      <module name="ei3orderweb" target="1.7" />
       <module name="ei3portalweb" target="1.7" />
       <module name="ei3search" target="1.7" />
       <module name="ei3searchinterface" target="1.7" />

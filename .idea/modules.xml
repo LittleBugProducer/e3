@@ -10,11 +10,19 @@
       <module fileurl="file://$PROJECT_DIR$/ei3managerservice/ei3-manager-service.iml" filepath="$PROJECT_DIR$/ei3managerservice/ei3-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" filepath="$PROJECT_DIR$/ei3managerweb/ei3-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3parent/ei3-parent.iml" filepath="$PROJECT_DIR$/ei3parent/ei3-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3cart/ei3cart.iml" filepath="$PROJECT_DIR$/ei3cart/ei3cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3cartinterface/ei3cartinterface.iml" filepath="$PROJECT_DIR$/ei3cartinterface/ei3cartinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3cartservice/ei3cartservice.iml" filepath="$PROJECT_DIR$/ei3cartservice/ei3cartservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3cartweb/ei3cartweb.iml" filepath="$PROJECT_DIR$/ei3cartweb/ei3cartweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3content/ei3content.iml" filepath="$PROJECT_DIR$/ei3content/ei3content.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" filepath="$PROJECT_DIR$/ei3contentinterface/ei3contentinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" filepath="$PROJECT_DIR$/ei3contentservice/ei3contentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3itemweb/ei3itemweb.iml" filepath="$PROJECT_DIR$/ei3itemweb/ei3itemweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3manager/ei3manager.iml" filepath="$PROJECT_DIR$/ei3manager/ei3manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3order/ei3order.iml" filepath="$PROJECT_DIR$/ei3order/ei3order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3orderinterface/ei3orderinterface.iml" filepath="$PROJECT_DIR$/ei3orderinterface/ei3orderinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3orderservice/ei3orderservice.iml" filepath="$PROJECT_DIR$/ei3orderservice/ei3orderservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ei3orderweb/ei3orderweb.iml" filepath="$PROJECT_DIR$/ei3orderweb/ei3orderweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" filepath="$PROJECT_DIR$/ei3portalweb/ei3portalweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3search/ei3search.iml" filepath="$PROJECT_DIR$/ei3search/ei3search.iml" />
       <module fileurl="file://$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" filepath="$PROJECT_DIR$/ei3searchinterface/ei3searchinterface.iml" />

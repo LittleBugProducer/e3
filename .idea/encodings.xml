@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3cartinterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3cartservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3cartweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3contentinterface" charset="UTF-8" />
@@ -13,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/ei3managerpojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3managerservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3managerweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3orderinterface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3orderservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ei3orderweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3portalweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ei3search" charset="UTF-8" />

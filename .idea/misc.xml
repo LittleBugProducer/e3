@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ei3cartservice" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3cartweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3contentservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3itemweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3managerservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3managerweb" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3orderservice" />
+    <file type="web" url="file://$PROJECT_DIR$/ei3orderweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3portalweb" />
     <file type="web" url="file://$PROJECT_DIR$/ei3searchservice" />
     <file type="web" url="file://$PROJECT_DIR$/ei3searchweb" />
@@ -16,6 +20,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ei3ssoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/ei3order/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

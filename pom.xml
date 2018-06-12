@@ -32,6 +32,15 @@
         <module>ei3ssointerface</module>
         <module>ei3ssoservice</module>
         <module>ei3ssoweb</module>
+        <module>ei3cartweb</module>
+        <module>ei3cart</module>
+        <module>ei3cartinterface</module>
+        <module>ei3cartservice</module>
+        <module>ei3cartservice</module>
+        <module>ei3order</module>
+        <module>ei3orderinterface</module>
+        <module>ei3orderservice</module>
+        <module>ei3orderweb</module>
     </modules>
     <build>
         <finalName>${project.artifactId}</finalName>
